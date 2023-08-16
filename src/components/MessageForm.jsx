@@ -40,6 +40,7 @@ const MessageForm = (props) => {
       <label htmlFor="upload-button">
         <span className="image-button">
           <PictureOutlined className="picture-icon" />
+         /* Icons from the @ant-design/icons package PictureOutlined are used for the "Picture".*/
         </span>
       </label>
       <input
@@ -51,6 +52,7 @@ const MessageForm = (props) => {
       />
       <button type="submit" className="send-button">
         <SendOutlined className="send-icon" />
+        /* SendOutlined is used for the "Send" buttons. */
       </button>
     </form>
   );
